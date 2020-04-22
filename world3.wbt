@@ -1,0 +1,109 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.8624607300314784 -0.5039027092503364 -0.04736611408739341 1.0696234360734285
+  position -9.920034420316728 25.820715949769852 15.238608657128818
+  followType "Mounted Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  texture "morning_cloudy_empty"
+}
+Floor {
+  size 8 8
+  appearance ChequeredParquetry {
+    IBLStrength 0
+  }
+}
+RoundTable {
+  translation 0 0 2.38
+  appearance VarnishedPine {
+    colorOverride 0 0.5 1
+    textureTransform TextureTransform {
+      scale 2 2
+    }
+  }
+}
+Wall {
+  translation -3.90145 3.55271e-15 0.00927874
+  rotation 0 1 0 1.5708
+  name "wall(3)"
+  size 8 2.4 0.2
+}
+Table {
+  translation -2 1.77636e-15 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "table(1)"
+  size 2.25 1 1.5
+  trayAppearance VarnishedPine {
+    colorOverride 0.3 0.7 0.4
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+  legAppearance VarnishedPine {
+    colorOverride 0.3 0.7 0.4
+    textureTransform TextureTransform {
+      scale 4 5
+    }
+  }
+}
+Wall {
+  translation 3.90855 3.55271e-15 0.00924999
+  rotation 0 1 0 1.5708
+  name "wall(2)"
+  size 8 2.4 0.2
+}
+Wall {
+  translation 0.0106634 1.77635e-15 -3.88986
+  rotation 0 1 0 4.692820414042842e-06
+  name "wall(1)"
+  size 8 2.4 0.2
+}
+Wall {
+  translation 0 0 3.89874
+  size 8 2.4 0.2
+}
+Table {
+  translation 2 1.77636e-15 -0.49952
+  rotation 0 1 0 -1.5707953071795862
+  size 2.25 1 1.5
+  trayAppearance VarnishedPine {
+    colorOverride 0.3 0.7 0.4
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+  legAppearance VarnishedPine {
+    colorOverride 0.3 0.7 0.4
+    textureTransform TextureTransform {
+      scale 4 5
+    }
+  }
+}
+RectangleArena {
+  translation 1.98 1.03 -0.58
+  floorSize 0.5 0.5
+}
+E-puck {
+  hidden position_0_0 369.0605456619744
+  hidden position_0_1 488.22096261851726
+  hidden linearVelocity_0 0.047388908805446835 -3.8689547419965376e-08 0.029982188888211487
+  hidden angularVelocity_0 0.0009173123176970954 0.0950253485043279 -0.0014678567960953182
+  hidden rotation_1 -1 0 0 4.635797845558386
+  hidden linearVelocity_1 0.04530836917370343 -4.4093582660375564e-07 0.02866591245977457
+  hidden angularVelocity_1 1.4269943658526503 0.09677011451768591 -2.255598663800235
+  hidden rotation_2 1 0 0 1.8674913414904828
+  hidden linearVelocity_2 0.04948385428298207 4.462682983471235e-07 0.03130816014447615
+  hidden angularVelocity_2 1.5717126062773568 0.09704893477242316 -2.484122390878138
+  translation 2.015828979957993 1.029935673801375 -0.4125960403762774
+  rotation -0.00018492662800736413 0.9999999630177224 -0.00019941588747651091 -2.1331017716175715
+}
+PortraitPainting {
+  translation 0 1.475 -3.67
+}
+PottedTree {
+  translation 0 0.75 2.27
+}
